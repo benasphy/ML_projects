@@ -13,11 +13,11 @@ from pathlib import Path
 
 def run():
     st.header("Rock vs Mine Classification using Logistic Regression")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Logistic_Regression)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](../../Logistic_Regression)", unsafe_allow_html=True)
 
     # Load dataset using relative path
     current_dir = Path(__file__).parent
-    df = pd.read_csv(current_dir / "Copy of sonar data.csv")
+    df = pd.read_csv(current_dir / "sonar_data.csv")
     
     # Display dataset info
     st.subheader("Dataset Overview")

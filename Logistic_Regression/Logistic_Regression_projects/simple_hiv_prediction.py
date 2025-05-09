@@ -61,8 +61,8 @@ def generate_sample_data():
     return df
 
 def run():
-    st.header("HIV Risk Prediction using Logistic Regression")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Logistic_Regression)", unsafe_allow_html=True)
+    st.header("Simple HIV Risk Prediction using Logistic Regression")
+    st.markdown("[View this project on GitHub](../../Logistic_Regression)", unsafe_allow_html=True)
 
     # Generate sample data
     df = generate_sample_data()
