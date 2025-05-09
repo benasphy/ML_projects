@@ -1,5 +1,14 @@
 import streamlit as st
-import os
+import importlib.util
+import sys
+from pathlib import Path
+
+def load_module_from_file(module_name, file_path):
+    spec = importlib.util.spec_from_file_location(module_name, file_path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[module_name] = module
+    spec.loader.exec_module(module)
+    return module
 
 def run():
     st.title("Machine Learning Algorithms")
@@ -50,7 +59,17 @@ def run():
     # Button to navigate to the selected algorithm
     if st.button("Go to App"):
         selected_path = algorithm_paths[selected_algorithm]
-        os.system(f"streamlit run {selected_path}")
+        try:
+            # Load and run the selected module
+            module_name = selected_path.replace('/', '_').replace('.py', '')
+            module = load_module_from_file(module_name, selected_path)
+            if hasattr(module, 'run'):
+                module.run()
+            else:
+                st.error(f"Module {module_name} does not have a run() function")
+        except Exception as e:
+            st.error(f"Error loading {selected_algorithm}: {str(e)}")
+            st.write("Please make sure all required files and dependencies are available.")
 
 if __name__ == "__main__":
     run()
