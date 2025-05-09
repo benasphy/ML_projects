@@ -132,4 +132,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Inspired by various machine learning courses and tutorials
 
 ---
-Feel free to star the repository if you find it useful! 
+Feel free to star the repository if you find it useful! # Update
