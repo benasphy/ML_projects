@@ -61,8 +61,8 @@ def generate_sample_data():
     return df
 
 def run():
-    st.header("Competition Awards Prediction using Poisson Regression")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Poisson_Regression)", unsafe_allow_html=True)
+    st.header("Competition Award Prediction using Poisson Regression")
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Poisson_Regression)", unsafe_allow_html=True)
 
     # Generate sample data
     df = generate_sample_data()

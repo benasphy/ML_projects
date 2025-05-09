@@ -10,8 +10,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 def run():
-    st.header("Loan Approval Analysis using K-Means Clustering")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/K-Means)", unsafe_allow_html=True)
+    st.header("Loan Approval using K-Means")
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/K-Means)", unsafe_allow_html=True)
 
     # Load or generate dataset
     uploaded_file = st.file_uploader("Upload a CSV file with loan data", type=["csv"])

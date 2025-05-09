@@ -44,7 +44,7 @@ def generate_sample_data():
 
 def run():
     st.header("Weather Prediction using Naive Bayes")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Naive_Bayes)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Naive_Bayes)", unsafe_allow_html=True)
     
     # Generate sample data
     df = generate_sample_data()

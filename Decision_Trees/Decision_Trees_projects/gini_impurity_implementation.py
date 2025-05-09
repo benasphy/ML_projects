@@ -45,8 +45,8 @@ def calculate_gini_impurity(y):
     return 2 * p * (1 - p)
 
 def run():
-    st.header("Gini Impurity Implementation for Decision Trees")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Decision_Trees)", unsafe_allow_html=True)
+    st.header("Gini Impurity Implementation")
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Decision_Trees)", unsafe_allow_html=True)
 
     # Generate sample data
     df = generate_sample_data()

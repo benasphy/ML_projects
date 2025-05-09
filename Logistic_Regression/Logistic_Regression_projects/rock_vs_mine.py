@@ -9,13 +9,15 @@ import plotly.graph_objects as go
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 def run():
     st.header("Rock vs Mine Classification using Logistic Regression")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Logistic_Regression)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Logistic_Regression)", unsafe_allow_html=True)
 
-    # Load dataset
-    df = pd.read_csv("Logistic_Regression/Logistic_Regression_projects/Copy of sonar data.csv")
+    # Load dataset using relative path
+    current_dir = Path(__file__).parent
+    df = pd.read_csv(current_dir / "Copy of sonar data.csv")
     
     # Display dataset info
     st.subheader("Dataset Overview")

@@ -56,7 +56,7 @@ def create_radar_chart(metrics, cluster):
 
 def run():
     st.header("Customer Segmentation using GMM")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/GMM)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/GMM)", unsafe_allow_html=True)
 
     # Load dataset
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])

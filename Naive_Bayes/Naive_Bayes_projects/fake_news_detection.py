@@ -37,7 +37,7 @@ def generate_wordcloud(texts, title):
 
 def run():
     st.header("Fake News Detection using Naive Bayes")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Naive_Bayes)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Naive_Bayes)", unsafe_allow_html=True)
     
     # File upload
     uploaded_file = st.file_uploader("Upload your dataset (CSV file)", type=['csv'])

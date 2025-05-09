@@ -98,8 +98,8 @@ def get_recommendations(df, movie_title, model, tfidf_matrix):
     st.plotly_chart(fig)
 
 def run():
-    st.header("Movie Recommendation System using KNN")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/KNN)", unsafe_allow_html=True)
+    st.header("Movie Recommendation using KNN")
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/KNN)", unsafe_allow_html=True)
 
     # Initialize session state for selected movie if it doesn't exist
     if 'selected_movie' not in st.session_state:

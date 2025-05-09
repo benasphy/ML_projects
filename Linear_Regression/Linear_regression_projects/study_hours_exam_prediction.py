@@ -13,8 +13,8 @@ def calculate_residuals(y_true, y_pred):
     return y_true - y_pred
 
 def run():
-    st.header("Study Hours vs Exam Score Prediction")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Linear_Regression)", unsafe_allow_html=True)
+    st.header("Study Hours Exam Prediction using Linear Regression")
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Linear_Regression)", unsafe_allow_html=True)
 
     # Example data
     study_hours = np.array([2.5, 5.1, 3.2, 8.5, 3.5, 1.5, 9.2, 5.5, 8.3, 2.7, 7.7, 5.9, 4.5, 3.3, 1.1, 8.9, 2.5, 1.9, 6.1, 7.4])
