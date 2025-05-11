@@ -12,8 +12,8 @@ def calculate_residuals(y_true, y_pred):
     return y_true - y_pred
 
 def run():
-    st.header("House Price Prediction using Linear Regression")
-    st.markdown("[View this project on GitHub](../../Linear_Regression)", unsafe_allow_html=True)
+    st.header("House Price Prediction")
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Linear_Regression)", unsafe_allow_html=True)
 
     # Example data
     house_sizes = np.array([1400, 1600, 1700, 1875, 1100, 1550, 2350, 2450, 1425, 1700])
