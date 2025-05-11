@@ -13,28 +13,32 @@ from Linear_regression_projects import (
     salary_prediction,
 )
 
-st.title("Linear Regression Projects")
+def run():
+    st.title("Linear Regression Projects")
 
-# Sidebar for project selection
-project = st.sidebar.selectbox(
-    "Select a project",
-    [
-        "Messi Goal Prediction",
-        "House Price Prediction",
-        "Study Hours and Exam Prediction",
-        "Normal Equation vs Gradient Descent",
-        "Salary Prediction",
-    ],
-)
+    # Sidebar for project selection
+    project = st.sidebar.selectbox(
+        "Select a project",
+        [
+            "Messi Goal Prediction",
+            "House Price Prediction",
+            "Study Hours and Exam Prediction",
+            "Normal Equation vs Gradient Descent",
+            "Salary Prediction",
+        ],
+    )
 
-# Run the selected project
-if project == "Messi Goal Prediction":
-    messi_goal_prediction.run()
-elif project == "House Price Prediction":
-    house_price_prediction.run()
-elif project == "Study Hours and Exam Prediction":
-    study_hours_exam_prediction.run()
-elif project == "Normal Equation vs Gradient Descent":
-    normal_equation_vs_gradient_descent.run()
-elif project == "Salary Prediction":
-    salary_prediction.run()
+    # Run the selected project
+    if project == "Messi Goal Prediction":
+        messi_goal_prediction.run()
+    elif project == "House Price Prediction":
+        house_price_prediction.run()
+    elif project == "Study Hours and Exam Prediction":
+        study_hours_exam_prediction.run()
+    elif project == "Normal Equation vs Gradient Descent":
+        normal_equation_vs_gradient_descent.run()
+    elif project == "Salary Prediction":
+        salary_prediction.run()
+
+if __name__ == "__main__":
+    run()
