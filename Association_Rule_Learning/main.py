@@ -1,4 +1,9 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the Decision_Trees_projects folder is in the Python path
+sys.path.append(str(Path(__file__).parent))
 from Association_Rule_Learning_projects import (
     market_basket_analysis,
     recommendation_system
