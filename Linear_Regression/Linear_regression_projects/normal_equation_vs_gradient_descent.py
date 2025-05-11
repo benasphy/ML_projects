@@ -39,8 +39,8 @@ def gradient_descent(X, y, learning_rate=0.01, iterations=1000):
     return theta, cost_history, end_time - start_time, i + 1
 
 def run():
-    st.header("Normal Equation vs Gradient Descent")
-    st.markdown("[View this project on GitHub](../../Linear_Regression)", unsafe_allow_html=True)
+    st.header("Normal Equation vs Gradient Descent Comparison")
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Linear_Regression)", unsafe_allow_html=True)
 
     # Data Generation
     st.subheader("Data Generation")
