@@ -1,4 +1,10 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the Logistic_Regression_projects folder is in the Python path
+sys.path.append(str(Path(__file__).parent))
+
 from Logistic_Regression_projects import (
     diabetes_prediction,
     rock_vs_mine,
