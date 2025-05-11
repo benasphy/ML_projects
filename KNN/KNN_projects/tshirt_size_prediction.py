@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import os
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -20,7 +21,7 @@ def run():
         df = pd.read_csv(uploaded_file)
     else:
         st.info("Using default dataset: TShirt_size.csv")
-        df = pd.read_csv("KNN/KNN_projects/TShirt_size.csv")
+        df = pd.read_csv(os.path.join(os.path.dirname(__file__), "TShirt_size.csv"))
 
     # Display dataset info
     st.subheader("Dataset Overview")

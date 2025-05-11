@@ -1,4 +1,10 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the KNN_projects folder is in the Python path
+sys.path.append(str(Path(__file__).parent))
+
 from KNN_projects import (
     movie_recommendation,
     tshirt_size_prediction,
