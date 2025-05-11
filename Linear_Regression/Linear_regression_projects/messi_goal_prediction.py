@@ -12,8 +12,8 @@ def calculate_residuals(y_true, y_pred):
     return y_true - y_pred
 
 def run():
-    st.header("Messi Goal Prediction")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Linear_Regression)", unsafe_allow_html=True)
+    st.header("Messi Goal Prediction using Linear Regression")
+    st.markdown("[View this project on GitHub](../../Linear_Regression)", unsafe_allow_html=True)
 
     # Example data (Messi's goals per season)
     seasons = np.array([2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023])
