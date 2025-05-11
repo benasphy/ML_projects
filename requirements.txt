@@ -6,3 +6,4 @@ plotly
 scipy
 seaborn
 wordcloud 
+opencv-python
