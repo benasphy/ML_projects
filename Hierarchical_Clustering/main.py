@@ -7,8 +7,7 @@ sys.path.append(str(Path(__file__).parent))
 from Hierarchical_projects import (
     document_clustering,
     market_basket_analysis,
-    loan_approval,
-    customer_segmentation
+
 )
 
 def run():
@@ -20,8 +19,7 @@ def run():
         [
             "Document Clustering",
             "Market Basket Analysis",
-            "Loan Approval",
-            "Customer Segmentation"
+            
         ],
     )
 
@@ -30,10 +28,7 @@ def run():
         document_clustering.run()
     elif project == "Market Basket Analysis":
         market_basket_analysis.run()
-    elif project == "Loan Approval":
-        loan_approval.run()
-    elif project == "Customer Segmentation":
-        customer_segmentation.run()
+    
 
 if __name__ == "__main__":
     run() 
