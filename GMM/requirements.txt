@@ -4,4 +4,4 @@ numpy==1.24.3
 scikit-learn==1.2.2
 plotly==5.13.1
 pillow==9.5.0
-cv2
+opencv-python
