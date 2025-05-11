@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import os
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
@@ -13,7 +14,7 @@ def calculate_residuals(y_true, y_pred):
     return y_true - y_pred
 
 def run():
-    st.header("Salary Prediction")
+    st.header("Salary Prediction using Linear Regression")
     st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Linear_Regression)", unsafe_allow_html=True)
 
     # Load dataset
@@ -23,7 +24,7 @@ def run():
     else:
         # Load default dataset
         st.info("Using default dataset: Salary_dataset.csv")
-        df = pd.read_csv("Linear_Regression/Linear_Regression_projects/Salary_dataset.csv")
+        df = pd.read_csv(os.path.join(os.path.dirname(__file__), "Salary_dataset.csv"))
 
     # Remove 'Unnamed: 0' column if it exists
     if 'Unnamed: 0' in df.columns:
