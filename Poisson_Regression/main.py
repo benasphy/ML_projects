@@ -1,4 +1,10 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the Poisson_Regression_projects folder is in the Python path
+sys.path.append(str(Path(__file__).parent))
+
 from Poisson_Regression_projects import (
     competition_award,
     no_of_car_accident,
