@@ -2,3 +2,6 @@ streamlit==1.22.0
 pandas==1.5.3
 numpy==1.24.3
 scikit-learn==1.2.2
+plotly
+scipy
+seaborn

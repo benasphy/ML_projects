@@ -5,4 +5,5 @@ mlxtend==0.23.1
 plotly==5.13.1
 matplotlib==3.7.1
 networkx==3.1
-scipy==1.10.1 
+scipy==1.10.1
+seaborn 
