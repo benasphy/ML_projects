@@ -9,3 +9,4 @@ wordcloud
 opencv-python
 hdbscan
 scikit-image
+mlxtend
