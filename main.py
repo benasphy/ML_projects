@@ -1,5 +1,5 @@
 import streamlit as st
-import os
+import importlib
 
 def run():
     st.title("Machine Learning Algorithms")
@@ -25,32 +25,34 @@ def run():
     # Sidebar to select an algorithm
     selected_algorithm = st.sidebar.selectbox("Select an Algorithm", algorithms)
 
-    # Map algorithm names to folder paths
-    algorithm_paths = {
-        "Linear Regression": "Linear_Regression/main.py",
-        "Logistic Regression": "Logistic_Regression/main.py",
-        "Decision Trees": "Decision_Trees/main.py",
-        "Poisson Regression": "Poisson_Regression/main.py",
-        "Support Vector Machines": "SVM/main.py",
-        "K-Nearest Neighbors": "KNN/main.py",
-        "Naive Bayes": "Naive_Bayes/main.py",
-        "GMM": "GMM/main.py",
-        "Hierarchical Clustering": "Hierarchical_Clustering/main.py",
-        "DBSCAN & HDBSCAN": "DBSCAN_HDBSCAN/main.py",
-        "Fuzzy C-Means": "Fuzzy_C_Means/main.py",
-        "Association Rule Learning": "Association_Rule_Learning/main.py",
-        "K-Means Clustering": "K-Means/main.py",
-        "Dimensionality Reduction": "Dimensionality_Reduction/main.py"
+    # Map algorithm names to module paths
+    algorithm_modules = {
+        "Linear Regression": "Linear_Regression.main",
+        "Logistic Regression": "Logistic_Regression.main",
+        "Decision Trees": "Decision_Trees.main",
+        "Poisson Regression": "Poisson_Regression.main",
+        "Support Vector Machines": "SVM.main",
+        "K-Nearest Neighbors": "KNN.main",
+        "Naive Bayes": "Naive_Bayes.main",
+        "GMM": "GMM.main",
+        "Hierarchical Clustering": "Hierarchical_Clustering.main",
+        "DBSCAN & HDBSCAN": "DBSCAN_HDBSCAN.main",
+        "Fuzzy C-Means": "Fuzzy_C_Means.main",
+        "Association Rule Learning": "Association_Rule_Learning.main",
+        "K-Means Clustering": "K-Means.main",
+        "Dimensionality Reduction": "Dimensionality_Reduction.main"
     }
 
-    # Display instructions
     st.write(f"You selected: {selected_algorithm}")
-    st.write("Click the button below to navigate to the selected algorithm's app.")
+    st.write("The selected algorithm's app will appear below.")
 
-    # Button to navigate to the selected algorithm
-    if st.button("Go to App"):
-        selected_path = algorithm_paths[selected_algorithm]
-        os.system(f"streamlit run {selected_path}")
+    # Dynamically import and run the selected module's run() function
+    module_path = algorithm_modules[selected_algorithm]
+    try:
+        module = importlib.import_module(module_path)
+        module.run()
+    except Exception as e:
+        st.error(f"Failed to load {selected_algorithm} app: {e}")
 
 if __name__ == "__main__":
     run()
