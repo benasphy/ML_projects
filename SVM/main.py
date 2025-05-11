@@ -1,4 +1,10 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the SVM_projects folder is in the Python path
+sys.path.append(str(Path(__file__).parent))
+
 from SVM_projects import (
     spam_detection,
     breast_cancer_prediction,
