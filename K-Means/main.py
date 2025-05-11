@@ -1,4 +1,9 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the Decision_Trees_projects folder is in the Python path
+sys.path.append(str(Path(__file__).parent))
 from K_Means_projects import (
     loan_approval,
     customer_segmentation
