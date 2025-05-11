@@ -1,4 +1,9 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Ensure the Linear_regression_projects folder is in the Python path
+sys.path.append(str(Path(__file__).parent))
 from GMM_projects import (
     customer_segmentation,
     image_color_segmentation,
