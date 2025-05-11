@@ -8,3 +8,4 @@ seaborn
 wordcloud 
 opencv-python
 hdbscan
+scikit-image
