@@ -20,11 +20,25 @@ DBSCAN_HDBSCAN/
 ## Projects Included
 
 1. **Customer Behavior Analysis**  
-   Analyzes customer behavior patterns using HDBSCAN clustering to identify distinct customer segments.  
+   Analyzes customer behavior patterns using HDBSCAN clustering to identify distinct customer segments.
+
+   **Screenshots:**
+   ![Customer Behavior Analysis](screenshots/customer_behavior.png)
+
    - Interactive parameter tuning
    - Cluster visualization
    - Behavior pattern analysis
    - Noise point identification
+
+2. **Anomaly Detection**  
+   Detects anomalies in data using DBSCAN clustering.
+
+   **Screenshots:**
+   ![Anomaly Detection](screenshots/anom_det.png)
+
+   - Outlier detection
+   - Cluster visualization
+   - Interactive parameter tuning
 
 ## How to Run
 
