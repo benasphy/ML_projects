@@ -5,6 +5,9 @@ This folder contains various projects that utilize Hierarchical Clustering for d
 ## Projects
 
 1. **Document Clustering**: Clusters text documents based on their content using hierarchical clustering. Features include:
+
+   **Screenshots:**
+   ![Document Clustering](screenshots/doc_clust.png)
    - Interactive parameter tuning
    - Dendrogram visualization
    - Document similarity matrix
@@ -12,6 +15,9 @@ This folder contains various projects that utilize Hierarchical Clustering for d
    - Cluster analysis and interpretation
 
 2. **Market Basket Analysis**: Analyzes shopping patterns using hierarchical clustering. Features include:
+
+   **Screenshots:**
+   ![Market Basket Analysis](screenshots/market_basket.png)
    - Transaction clustering
    - Item correlation analysis
    - Association rules mining
