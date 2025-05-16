@@ -25,9 +25,15 @@ Poisson_Regression/
    Predicts the number of awards a student will receive based on their math scores using Poisson Regression.  
    Dataset: `competition_awards_data.csv`
 
+   **Screenshots:**
+   ![Competition Award Prediction](screenshots/comp.png)
+
 2. **Number of Car Accidents Prediction**  
    Predicts the number of car accidents based on average speed, traffic density, and road conditions using Poisson Regression.  
    Dataset: Synthetic data (hardcoded in the script).
+
+   **Screenshots:**
+   ![Car Accident Prediction](screenshots/caraccidents.png)
 
 ## How to Run
 
