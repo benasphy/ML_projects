@@ -5,7 +5,13 @@ This folder contains various projects that utilize the Support Vector Machine (S
 ## Projects
 
 1. **Spam Detection**: Classifies emails as spam or not spam using SVM.
+
+   **Screenshots:**
+   ![Spam Detection](screenshots/spam.png)
 2. **Breast Cancer Prediction**: Predicts whether a breast cancer tumor is benign or malignant using SVM.
+
+   **Screenshots:**
+   ![Breast Cancer Prediction](screenshots/breast.png)
 
 ## How to Run
 
