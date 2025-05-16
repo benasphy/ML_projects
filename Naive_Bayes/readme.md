@@ -5,8 +5,17 @@ This folder contains various projects that utilize the Naive Bayes algorithm for
 ## Projects
 
 1. **Weather Prediction**: Predicts weather conditions using historical data.
+
+   **Screenshots:**
+   ![Weather Prediction](screenshots/weath.png)
 2. **Spam Detection**: Classifies emails as spam or not spam using text data.
+
+   **Screenshots:**
+   ![Spam Detection](screenshots/spamde.png)
 3. **Fake News Prediction**: Detects fake news articles using features like title, news URL, source domain, and tweet number.
+
+   **Screenshots:**
+   ![Fake News Prediction](screenshots/fake_news.png)
 
 ## How to Run
 
