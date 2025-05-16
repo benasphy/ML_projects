@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 def run():
     st.header("Diabetes Prediction using Logistic Regression")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Logistic_Regression)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Logistic_Regression)", unsafe_allow_html=True)
 
     # Load dataset
     df = pd.read_csv("Logistic_Regression/Logistic_Regression_projects/diabetes.csv")
