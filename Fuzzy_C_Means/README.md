@@ -5,6 +5,9 @@ This repository contains projects that demonstrate the application of Fuzzy C-Me
 ## Projects
 
 ### 1. Image Segmentation
+
+**Screenshots:**
+![Image Segmentation](screenshots/imag_seg.png)
 - Interactive image upload and processing
 - Customizable number of segments
 - Adjustable fuzziness parameter
@@ -13,6 +16,9 @@ This repository contains projects that demonstrate the application of Fuzzy C-Me
 - Color distribution analysis
 
 ### 2. Customer Profiling
+
+**Screenshots:**
+![Customer Profiling](screenshots/cust_prof.png)
 - Interactive feature selection
 - Dynamic cluster number adjustment
 - Adjustable fuzziness parameter
