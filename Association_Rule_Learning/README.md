@@ -26,6 +26,24 @@ This repository contains projects that demonstrate the application of Associatio
 - Personalized recommendations based on selected items
 - Rule-based item suggestions
 
+### 3. Feature Selection
+
+**Screenshots:**
+![Feature Selection](screenshots/feature_sel.png)
+- Association rule-based feature selection
+- Interactive parameter tuning
+- Rule visualization
+- Feature importance analysis
+
+### 4. Image Compression
+
+**Screenshots:**
+![Image Compression](screenshots/img_comp.png)
+- Association rule-based image compression
+- Visualization of compressed vs. original image
+- Parameter tuning
+- Compression ratio analysis
+
 ## How to Run
 
 1. Install the required packages:
