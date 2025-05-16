@@ -27,7 +27,17 @@ LinearRegression/
 ## Projects Included
 
 1. **Messi Goal Prediction**  
-   Predicts the number of goals Messi will score based on the number of matches played using Linear Regression.
+   A data-driven approach to predict Lionel Messi's goal-scoring performance using Linear Regression.
+
+   **Key Features:**
+   - Uses historical match and goal data
+   - Demonstrates linear relationship between matches played and goals scored
+   - Provides insights into Messi's goal-scoring consistency
+
+   **Screenshots:**
+   ![Messi Goal Distribution](screenshots/leo1.png)
+   ![Goal Prediction Model](screenshots/leo2.png)
+   ![Model Performance Metrics](screenshots/leo3.png)
 
 2. **House Price Prediction**  
    Predicts house prices based on their sizes using Linear Regression.

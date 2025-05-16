@@ -6,6 +6,7 @@ from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 import plotly.express as px
 import plotly.graph_objects as go
 from scipy import stats
+import importlib
 
 def calculate_residuals(y_true, y_pred):
     """Calculate and return residuals."""
@@ -294,4 +295,8 @@ def run():
             st.write(f"- Reached {milestone} goals in {season}")
 
 if __name__ == "__main__":
-    run()
+    if st.button("Go to App"):
+        selected_path = algorithm_paths[selected_algorithm]
+        module_path = selected_path.replace("/", ".").replace(".py", "")
+        module = importlib.import_module(module_path)
+        module.run()
