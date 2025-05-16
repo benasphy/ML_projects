@@ -41,8 +41,19 @@ LinearRegression/
 3. **Study Hours and Exam Prediction**  
    Predicts exam scores based on the number of hours studied using Linear Regression.
 
+   **Screenshots:**
+   ![Score Prediction 1](screenshots/score1.png)
+   ![Score Prediction 2](screenshots/score2.png)
+
 4. **Normal Equation vs Gradient Descent**  
    Compares the performance of the normal equation and gradient descent methods for solving linear regression.
 
+   **Screenshots:**
+   ![Normal vs Gradient 1](screenshots/norm_grad1.png)
+   ![Normal vs Gradient 2](screenshots/norm_grad2.png)
+
 5. **Salary Prediction**  
    Predicts salary based on years of experience using Linear Regression.
+
+   **Screenshots:**
+   ![Salary Prediction](screenshots/salary_pred.png)
