@@ -25,10 +25,16 @@ Decision_Tree/
    - Visualizes the decision tree.
    - Allows user input to predict gym attendance.
 
+   **Screenshots:**
+   ![Gym Decision Tree](screenshots/gym1.png)
+
 2. **Gini Impurity Implementation**  
    Demonstrates the use of Gini Impurity to build a Decision Tree for predicting gym attendance.  
    - Visualizes the decision tree.
    - Allows user input to predict gym attendance.
+
+   **Screenshots:**
+   ![Gini Impurity Implementation](screenshots/gini.png)
 
 ## How to Run
 
