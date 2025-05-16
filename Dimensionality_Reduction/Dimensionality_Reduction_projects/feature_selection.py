@@ -39,7 +39,7 @@ def generate_sample_data(n_samples=1000):
 
 def run():
     st.header("Feature Selection using Dimensionality Reduction")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Dimensionality_Reduction)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Dimensionality_Reduction)", unsafe_allow_html=True)
 
     # Load or generate dataset
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])

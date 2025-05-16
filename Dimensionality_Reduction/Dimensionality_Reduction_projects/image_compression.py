@@ -38,7 +38,7 @@ def compress_image(image, n_components):
 
 def run():
     st.header("Image Compression using PCA")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Dimensionality_Reduction)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Dimensionality_Reduction)", unsafe_allow_html=True)
 
     # File uploader
     uploaded_file = st.file_uploader("Upload an image", type=['jpg', 'jpeg', 'png'])
