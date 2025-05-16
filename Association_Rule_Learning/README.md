@@ -5,6 +5,9 @@ This repository contains projects that demonstrate the application of Associatio
 ## Projects
 
 ### 1. Market Basket Analysis
+
+**Screenshots:**
+![Market Basket Analysis](screenshots/mark_bask.png)
 - Interactive transaction data upload
 - Customizable support, confidence, and lift thresholds
 - Visualization of association rules
@@ -13,6 +16,9 @@ This repository contains projects that demonstrate the application of Associatio
 - Support vs Confidence scatter plot
 
 ### 2. Recommendation System
+
+**Screenshots:**
+![Recommendation System](screenshots/recomm.png)
 - Interactive user-item interaction data upload
 - Customizable support, confidence, and lift thresholds
 - Visualization of item relationships
