@@ -5,6 +5,9 @@ This repository contains projects that demonstrate the application of various di
 ## Projects
 
 ### 1. Image Compression
+
+**Screenshots:**
+![Image Compression](screenshots/img_comp.png)
 - Interactive image upload and processing
 - PCA-based image compression
 - Adjustable number of components
@@ -14,6 +17,9 @@ This repository contains projects that demonstrate the application of various di
 - Download compressed images
 
 ### 2. Feature Selection
+
+**Screenshots:**
+![Feature Selection](screenshots/feature_sel.png)
 - Interactive dataset upload
 - Multiple dimensionality reduction methods (PCA, t-SNE)
 - Feature importance analysis
