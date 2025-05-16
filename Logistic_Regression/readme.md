@@ -1,4 +1,3 @@
-```markdown
 # Logistic Regression Projects
 
 This repository contains various Logistic Regression projects implemented in Python. Each project demonstrates the application of Logistic Regression to solve real-world problems using datasets.
@@ -93,7 +92,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Special thanks to the contributors of the Python libraries used in this project.
 
 ---
-Feel free to contribute to this repository by submitting issues or pull requests.```
+Feel free to contribute to this repository by submitting issues or pull requests.
 
 ### Steps to Save:
 1. Save this content as `README.md` in the `Logistic_Regression` folder.
