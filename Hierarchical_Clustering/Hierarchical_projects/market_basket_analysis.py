@@ -11,7 +11,7 @@ import seaborn as sns
 
 def run():
     st.header("Market Basket Analysis using Hierarchical Clustering")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Hierarchical_clustering)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Hierarchical_Clustering)", unsafe_allow_html=True)
 
     # Load dataset
     uploaded_file = st.file_uploader("Upload a CSV file with purchase data", type=["csv"])
