@@ -35,6 +35,9 @@ LinearRegression/
 2. **House Price Prediction**  
    Predicts house prices based on their sizes using Linear Regression.
 
+   **Screenshots:**
+   ![House Price Prediction](screenshots/house1.png)
+
 3. **Study Hours and Exam Prediction**  
    Predicts exam scores based on the number of hours studied using Linear Regression.
 
