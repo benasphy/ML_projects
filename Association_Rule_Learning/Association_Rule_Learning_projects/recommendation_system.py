@@ -59,7 +59,7 @@ def format_rule(rule):
 
 def run():
     st.header("Recommendation System using Association Rules")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Association_Rule_Learning)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Association_Rule_Learning)", unsafe_allow_html=True)
 
     # Load or generate dataset
     uploaded_file = st.file_uploader("Upload a CSV file with user-item interactions", type=["csv"])

@@ -38,7 +38,7 @@ def fuzzy_c_means(data, n_clusters, m=2, max_iter=100, error=1e-5):
 
 def run():
     st.header("Customer Profiling using Fuzzy C-Means")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Fuzzy_C_Means)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Fuzzy_C_Means)", unsafe_allow_html=True)
 
     # Load or generate dataset
     uploaded_file = st.file_uploader("Upload a CSV file with customer data", type=["csv"])

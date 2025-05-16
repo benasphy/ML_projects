@@ -39,7 +39,7 @@ def generate_sample_data():
 
 def run():
     st.header("Gym Attendance Prediction using Decision Trees")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/Decision_Trees)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/Decision_Trees)", unsafe_allow_html=True)
 
     # Generate sample data
     df = generate_sample_data()

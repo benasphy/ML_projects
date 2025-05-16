@@ -14,7 +14,7 @@ from sklearn.decomposition import PCA
 
 def run():
     st.header("Breast Cancer Prediction using SVM")
-    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/SVM)", unsafe_allow_html=True)
+    st.markdown("[View this project on GitHub](https://github.com/benasphy/ML_projects/tree/main/SVM)", unsafe_allow_html=True)
 
     # Load dataset
     data = load_breast_cancer()
