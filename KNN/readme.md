@@ -5,7 +5,14 @@ This folder contains various projects that utilize the K-Nearest Neighbors (KNN)
 ## Projects
 
 1. **Movie Recommendation System**: Recommends similar movies based on content features using KNN.
+
+   **Screenshots:**
+   ![Movie Recommendation 1](screenshots/movie1.png)
+   ![Movie Recommendation 2](screenshots/movie2.png)
 2. **T-Shirt Size Prediction**: Predicts T-shirt sizes based on height and weight measurements using KNN.
+
+   **Screenshots:**
+   ![T-Shirt Size Prediction](screenshots/t-shirt.png)
 
 ## How to Run
 
