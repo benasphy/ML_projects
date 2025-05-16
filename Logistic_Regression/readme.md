@@ -28,13 +28,23 @@ Logistic_Regression/
    Predicts the likelihood of diabetes based on health metrics such as glucose level, blood pressure, BMI, etc.  
    Dataset: `diabetes.csv`
 
+   **Screenshots:**
+   ![Diabetes Prediction 1](screenshots/diab1.png)
+   ![Diabetes Prediction 2](screenshots/diab2.png)
+
 2. **Rock vs Mine Classification**  
    Classifies sonar signals as either "Rock" or "Mine" using Logistic Regression.  
    Dataset: `sonar.csv`
 
+   **Screenshots:**
+   ![Rock vs Mine](screenshots/rock_mine.png)
+
 3. **Simple HIV Prediction**  
    Predicts HIV status based on features like age, CD4 count, and viral load.  
    Dataset: Synthetic data (hardcoded in the script).
+
+   **Screenshots:**
+   ![HIV Prediction](screenshots/hiv.png)
 
 ## How to Run
 
