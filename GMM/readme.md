@@ -5,12 +5,18 @@ This folder contains various projects that utilize Gaussian Mixture Models (GMM)
 ## Projects
 
 1. **Customer Segmentation**: Clusters customers based on their characteristics using GMM. Features include:
+
+   **Screenshots:**
+   ![Customer Segmentation](screenshots/cust.png)
    - Interactive parameter tuning
    - 2D and 3D visualizations
    - Cluster analysis and interpretation
    - Model evaluation metrics
 
 2. **Image Color Segmentation**: Segments images into color clusters using GMM. Features include:
+
+   **Screenshots:**
+   ![Image Color Segmentation](screenshots/image_clust.png)
    - Interactive image upload
    - Color cluster visualization
    - 3D color space analysis
